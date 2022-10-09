@@ -7,16 +7,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchemployeeComponent } from './searchemployee/searchemployee.component';
 import { Route, RouterModule, Routes } from '@angular/router';
 
-
 const appRoutes: Routes = [
   {
     path:"", component:AddemployeeComponent
   },
   {
     path:"search", component:SearchemployeeComponent
-  }
+  },
 
 ]
+
 @NgModule({
   declarations: [
     AppComponent,
